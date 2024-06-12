@@ -51,9 +51,9 @@ function Hero() {
             </a>
         </span>
         <p className={styles.desciption}>As an aspiring developer,I innovate through continual learning. </p>
-         <p className={styles.desciption}>With a curious minset,I explore Tech to grow my skills.</p>
+         <p className={styles.desciption}>With a curious mindset,I explore Tech to grow my skills.</p>
          <p className={styles.desciption}>My goal is to use my expertise in creating impactful solutions.</p>
-         <p className={styles.desciption}>Blending abilities and purpose,I'm driven to make real impact.</p>
+         <p className={styles.desciption}>Aligning my abilities with purpose,I'm driven to make a real impact.</p>
         <a href={CV}>
             <button className="hover" download>
                 Resume
