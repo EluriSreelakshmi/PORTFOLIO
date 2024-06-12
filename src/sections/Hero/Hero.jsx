@@ -50,10 +50,10 @@ function Hero() {
              <img src={linkedinIcon} alt="Linkedin icon" />
             </a>
         </span>
-        <p className={styles.desciption}>As an aspiring developer, I'm driven by a passion for learning and innovation.</p>
-         <p className={styles.desciption}>With a curious mindset, I explore new technologies to expand my skills.</p>
-         <p className={styles.desciption}>My goal is to leverage my expertise and create impactful, meaningful solutions.</p>
-         <p className={styles.desciption}>Combining my abilities with a deeper sense of purpose, I'm driven to make a real-world impact.</p>
+        <p className={styles.desciption}>As an aspiring developer,I innovate through continual learning. </p>
+         <p className={styles.desciption}>With a curious minset,I explore Tech to grow my skills.</p>
+         <p className={styles.desciption}>My goal is to use my expertise in creating impactful solutions.</p>
+         <p className={styles.desciption}>Blending abilities and purpose,I'm driven to make real impact.</p>
         <a href={CV}>
             <button className="hover" download>
                 Resume
