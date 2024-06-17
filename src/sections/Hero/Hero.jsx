@@ -2,8 +2,6 @@ import styles from './HeroStyles.module.css'
 import heroImg from '../../assets/hero-img.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
-import twitterLight from '../../assets/twitter-light.svg'
-import twitterDark from '../../assets/twitter-dark.svg'
 import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
@@ -40,17 +38,14 @@ function Hero() {
         </h1>
         <h2>Aspiring Developer</h2>
         <span>
-            <a href="https://x.com/Sreelakshm38394" target="_blank">
-             <img src={twitterIcon} alt="Twitter icon" />
-            </a>
             <a href="https://github.com/EluriSreelakshmi" target="_blank">
              <img src={githubIcon} alt="Github icon" />
             </a>
-            <a href="https://www.linkedin.com/in/sree-lakshmi-eluri-230a87282//" target="_blank">
+            <a href="https://www.linkedin.com/in/sree-lakshmi-eluri-230a87282/" target="_blank">
              <img src={linkedinIcon} alt="Linkedin icon" />
             </a>
         </span>
-        <p className={styles.desciption}>As an aspiring developer,I innovate through continual learning. </p>
+        <p className={styles.desciption}>Enthusiastic developer crafting practical web solutions.</p>
          <p className={styles.desciption}>With a curious mindset,I explore Tech to grow my skills.</p>
          <p className={styles.desciption}>My goal is to use my expertise in creating impactful solutions.</p>
          <p className={styles.desciption}>Aligning my abilities with purpose,I'm driven to make a real impact.</p>
